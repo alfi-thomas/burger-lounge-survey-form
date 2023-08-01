@@ -1,16 +1,13 @@
-body{
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.4;
-  color: var(--color-white);
-  margin: 0;
-}
 body::before{
     background-image:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages8.alphacoders.com%2F101%2Fthumb-1920-1016892.jpg&f=1&nofb=1&ipt=feb87d2ca17ee3c3726bfb3cd57c7e6efe18e2c81720c5e0237348bdd422b21a&ipo=images);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     content: '';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0;
     padding: 10px;
     position: fixed;
     top: 0;
@@ -119,17 +116,7 @@ input.datun:valid{
     background-color: rgba(180, 180, 180, 0.6);
 }
 input.datun:hover{
-    box-sizing: border-box;
     box-shadow: 0px 10px 30px 10px rgba(14, 12, 12, 0.2);
-    height: 30px;
-    width:100%;
-    margin-bottom: 20px;
-    padding-left: 5px;
-    border-radius: 3px;
-    color:black;
-    font-size: 17px;
-    border: none;
-    background-color: rgba(180, 180, 180, 0.6);
 }
 textarea{
     width:100%;
